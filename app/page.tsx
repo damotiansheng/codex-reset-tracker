@@ -218,7 +218,7 @@ export default function Home() {
                     <p className="event-text">{r.text}</p>
                     <a
                       className="event-link"
-                      href={SOURCE_PROFILE_URL}
+                      href={r.url}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
